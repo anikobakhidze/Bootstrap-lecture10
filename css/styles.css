@@ -1,6 +1,10 @@
 :root {
-  --background-gradient: linear-gradient(90deg, rgba(83, 67, 167, 1) 0%, rgba(97, 106, 189, 1) 56%, rgba(130, 184, 233, 1) 100%);
-
+  --background-gradient: linear-gradient(
+    90deg,
+    rgba(83, 67, 167, 1) 0%,
+    rgba(97, 106, 189, 1) 56%,
+    rgba(130, 184, 233, 1) 100%
+  );
 }
 
 body {
@@ -8,7 +12,6 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
 }
-
-.section-margin {
-  margin-top: 150px
+.icon-color {
+  color: white;
 }

@@ -1,0 +1,21 @@
+@media screen and (max-width: 767px) {
+  .arrow-img {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1150px) {
+  .price-div {
+    justify-content: space-between !important;
+  }
+  .width-p {
+    width: 350px;
+  }
+  .buy-btn {
+    text-align: end;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1500px) {
+  .header-h {
+    margin-right: 50px !important;
+  }
+}
